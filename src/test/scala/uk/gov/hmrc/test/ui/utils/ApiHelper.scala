@@ -23,7 +23,7 @@ object ApiHelper extends HttpClient with FileHelper with DriverHelper {
 
   private def headers(messageType: String): Seq[(String, String)] =
     Seq(
-      "Accept"         -> "application/vnd.hmrc.2.0+json",
+      "Accept"         -> "application/vnd.hmrc.3.0+json",
       "Authorization"  -> World.bearerToken,
       "X-Message-Type" -> messageType
     )
