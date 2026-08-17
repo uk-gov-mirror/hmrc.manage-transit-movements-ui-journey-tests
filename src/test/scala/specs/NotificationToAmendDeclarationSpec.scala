@@ -130,7 +130,9 @@ class NotificationToAmendDeclarationSpec extends BaseSpec with GivenWhenThen {
 
     }
 
-    Scenario("02 End to end journey for viewing errors from a rejected declaration amendment after MRN allocation - No data in the cache") {
+    Scenario(
+      "02 End to end journey for viewing errors from a rejected declaration amendment after MRN allocation - No data in the cache"
+    ) {
       Given("I login with ID 1234567890")
       andILoginWithIDX("1234567890")
 
@@ -162,7 +164,9 @@ class NotificationToAmendDeclarationSpec extends BaseSpec with GivenWhenThen {
       andISignOut()
     }
 
-    Scenario("03 End to end journey for when no function errors exist from a rejected declaration amendment after MRN allocation") {
+    Scenario(
+      "03 End to end journey for when no function errors exist from a rejected declaration amendment after MRN allocation"
+    ) {
       Given("I login with ID 1234567890")
       andILoginWithIDX("1234567890")
 
@@ -201,7 +205,7 @@ class NotificationToAmendDeclarationSpec extends BaseSpec with GivenWhenThen {
       Given("I login with ID 1234567890")
       andILoginWithIDX("1234567890")
 
-      When("I submit an IE015 PreLodge Departure Declaration")
+      When("I submit an IE015 PreLodged Departure Declaration")
       givenIsubmitAFile("IE015 Simplified Prelodged Departure Declaration")
 
       Then("I submit an IE928 Positive Acknowledgment")
