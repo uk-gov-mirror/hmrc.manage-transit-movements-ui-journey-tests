@@ -1,0 +1,19 @@
+<ncts:CC022C PhaseID="NCTS6" xmlns:ncts="http://ncts.dgtaxud.ec">
+    <messageSender>token</messageSender>
+    <messageRecipient>NTA.XI</messageRecipient>
+    <preparationDateAndTime>2007-10-26T07:36:28</preparationDateAndTime>
+    <messageIdentification>token</messageIdentification>
+    <messageType>CC022C</messageType>
+    <correlationIdentifier>6a4e32fb53062f03-0000000000000000</correlationIdentifier>
+    <TransitOperation>
+        <MRN>25GB000246TK0E6WJ1</MRN>
+        <amendmentNotificationDateAndTime>2026-07-08T11:22:35</amendmentNotificationDateAndTime>
+    </TransitOperation>
+    <CustomsOfficeOfDeparture>
+        <referenceNumber>XI000142</referenceNumber>
+    </CustomsOfficeOfDeparture>
+    <HolderOfTheTransitProcedure>
+        <identificationNumber>XI123456789000</identificationNumber>
+        <TIRHolderIdentificationNumber>123456789</TIRHolderIdentificationNumber>
+    </HolderOfTheTransitProcedure>
+</ncts:CC022C>

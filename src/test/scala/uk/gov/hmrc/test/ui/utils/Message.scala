@@ -37,6 +37,7 @@ object Message {
     case "IE928" => IE928(World.departureId)
     case "IE060" => IE060(World.departureId)
     case "IE056" => IE056(World.departureId)
+    case "IE022" => IE022(World.departureId)
     case "IE035" => IE035(World.departureId)
     case "IE051" => IE051(World.departureId)
     case "IE057" => IE057(World.arrivalId)
@@ -94,6 +95,7 @@ case class IE928(departureId: String) extends DepartureInboundMessage
 case class IE013(departureId: String) extends DepartureInboundMessage
 case class IE004(departureId: String) extends DepartureInboundMessage
 case class IE055(departureId: String) extends DepartureInboundMessage
+case class IE022(departureId: String) extends DepartureInboundMessage
 
 case class IE057(arrivalId: String) extends ArrivalInboundMessage
 case class IE043(arrivalId: String) extends ArrivalInboundMessage
